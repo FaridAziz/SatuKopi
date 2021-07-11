@@ -13,10 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('layouts.app');
-});
+// Route::get('/', function () {
+//     return view('layouts.app');
+// });
 
+
+Route::get('/', \App\Http\Livewire\Home::class);
 Route::get('/home', \App\Http\Livewire\Home::class);
 
-// Route::get('/login', \App\Http\Livewire\Login::class);
+Route::get('/login', \App\Http\Livewire\Login::class);
+
+
+// halaman admin
+Route::get('/adminDashboard', \App\Http\Livewire\AdminDashboard::class);
+Route::get('/adminDataBarang', \App\Http\Livewire\AdminDataBarang::class);
+Route::get('/adminInvoice', \App\Http\Livewire\AdminInvoice::class);
+

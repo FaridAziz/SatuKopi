@@ -1,3 +1,7 @@
+@extends('layouts.blank')
+
+@section('blank')
 <div>
-    asdasda
+    login
 </div>
+@endsection
