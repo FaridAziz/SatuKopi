@@ -27,16 +27,16 @@
                     <a class="nav-link active" aria-current="page" href="/home">Home</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="/kategori">Kategori</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="/tentang">Tentang</a>
                     </li>
                 </ul>
             </div>
             <div>
             <a class="btn btn-light" href="/login" role="button">Login</a>
-            <a class="btn btn-light" href="#" role="button">Register</a>
+            <a class="btn btn-light" href="/register" role="button">Register</a>
             </div>
             
         </div>

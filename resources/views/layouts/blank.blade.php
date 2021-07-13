@@ -10,7 +10,7 @@
 
     <title>Satu Kopi</title>
   </head>
-  <body>
+  <body class="bg-danger">
     @yield('blank')
 
     <!-- Optional JavaScript; choose one of the two! -->

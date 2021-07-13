@@ -20,6 +20,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', \App\Http\Livewire\Home::class);
 Route::get('/home', \App\Http\Livewire\Home::class);
+Route::get('/kategori', \App\Http\Livewire\Kategori::class);
+Route::get('/tentang', \App\Http\Livewire\Tentang::class);
+Route::get('/register', \App\Http\Livewire\Register::class);
 
 Route::get('/login', \App\Http\Livewire\Login::class);
 
