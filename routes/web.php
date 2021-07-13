@@ -31,4 +31,5 @@ Route::get('/login', \App\Http\Livewire\Login::class);
 Route::get('/adminDashboard', \App\Http\Livewire\AdminDashboard::class);
 Route::get('/adminDataBarang', \App\Http\Livewire\AdminDataBarang::class);
 Route::get('/adminInvoice', \App\Http\Livewire\AdminInvoice::class);
+Route::get('/adminDataBarang/tambah', \App\Http\Livewire\AdminTambahBarang::class);
 
